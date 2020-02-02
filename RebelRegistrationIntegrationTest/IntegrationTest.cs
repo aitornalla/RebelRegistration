@@ -18,7 +18,7 @@ namespace RebelRegistrationIntegrationTest
         }
 
         [Theory]
-        [InlineData("/")]
+        [InlineData("/api/rebelinfo")]
         public async Task GetHttpRequest(string url)
         {
             // Arrange
